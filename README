@@ -1,0 +1,26 @@
+I designed a 4-bit synchronous up counter with asynchronous reset functionality using Verilog and RTL components. 
+
+The architecture integrates:
+
+-A 4-bit register (RTL_REG_ASYNC) for state retention with asynchronous clear capability.
+
+-A 4-bit adder (RTL_ADD) that incrementally updates the counter value by adding a constant 1 on each clock cycle.
+
+-A constant generator block feeding the adder for precise and predictable up-counting behavior.
+
+
+
+The feedback loop ensures seamless incrementing on each rising edge of the clock, while the reset signal provides immediate clearing to zero. Verified the design through schematic inspection and functional simulation using Vivado, ensuring clean timing and logical correctness.
+
+
+
+🔧 Tools Used: Verilog, Vivado, RTL Schematic Analyzer
+
+
+
+ 📌 Key Concepts: Synchronous sequential logic, asynchronous reset, RTL modeling, register-adder architecture
+
+
+
+This project builds on my growing expertise in simulation and debugging of digital systems and is part of my portfolio exploring modular and hierarchical design patterns.
+
