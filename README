@@ -13,14 +13,9 @@ The architecture integrates:
 The feedback loop ensures seamless incrementing on each rising edge of the clock, while the reset signal provides immediate clearing to zero. Verified the design through schematic inspection and functional simulation using Vivado, ensuring clean timing and logical correctness.
 
 
-
 🔧 Tools Used: Verilog, Vivado, RTL Schematic Analyzer
 
-
-
  📌 Key Concepts: Synchronous sequential logic, asynchronous reset, RTL modeling, register-adder architecture
-
-
 
 This project builds on my growing expertise in simulation and debugging of digital systems and is part of my portfolio exploring modular and hierarchical design patterns.
 
